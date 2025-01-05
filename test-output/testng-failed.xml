@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Restfull Booking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="E2E Scenarios(failed)">
+    <classes>
+      <class name="testcases.TC04_GetUpdatedBookings">
+        <methods>
+          <include name="Setup"/>
+          <include name="getupdatedbooking_P"/>
+        </methods>
+      </class> <!-- testcases.TC04_GetUpdatedBookings -->
+    </classes>
+  </test> <!-- E2E Scenarios(failed) -->
+</suite> <!-- Failed suite [Restfull Booking] -->

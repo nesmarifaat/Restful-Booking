@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Restfull Booking">
+    <test  name="E2E Scenarios">
+        <classes>
+            <class name="testcases.TC01_CreateToken">
+                <methods>
+                    <exclude name="createtokenwithvaliddata_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC02_CreateBooking">
+                <methods>
+                    <exclude name="createbookingwithvaliddata_P"/>
+                </methods>
+            </class>
+            <class name="testcases.TC03_UpdateBooking">
+                <methods>
+                    <exclude name="partialupdateforfirstlastname_P"/>
+                    <exclude name="updateallbooking_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
