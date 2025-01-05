@@ -1,6 +1,6 @@
 # Restful Booking.
 
-![Restful Booking Logo](https://static.vecteezy.com/system/resources/thumbnails/019/551/585/small_2x/api-icon-software-integration-illustration-sign-application-symbol-cloud-logo-development-sign-or-logo-vector.jpg).
+![Restful Booking Logo](https://cdn.vectorstock.com/i/500p/16/17/api-cloud-software-integration-icon-vector-24331617.jpg).
 ## Table of Contents.
 
 - [Introduction](#introduction)
