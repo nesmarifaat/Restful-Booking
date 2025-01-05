@@ -1,6 +1,6 @@
 # Restful Booking.
 
-![Restful Booking Logo]([https://cdn2.abiresearch.com/static/social_images/network-api.jpg](https://cdn2.abiresearch.com/static/social_images/network-api.jpg))
+![Restful Booking Logo](src="https://img.freepik.com/free-vector/hand-drawn-api-illustration_23-2149388656.jpg).
 ## Table of Contents.
 
 - [Introduction](#introduction)
