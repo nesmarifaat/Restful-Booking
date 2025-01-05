@@ -1,6 +1,6 @@
 # Restful Booking.
 
-![Restful Booking Logo][(https://img.freepik.com/free-vector/hand-drawn-api-illustration_23-2149388656.jpg](https://static.vecteezy.com/system/resources/thumbnails/019/551/585/small_2x/api-icon-software-integration-illustration-sign-application-symbol-cloud-logo-development-sign-or-logo-vector.jpg)).
+![Restful Booking Logo][(https://img.freepik.com/free-vector/hand-drawn-api-illustration_23-2149388656.jpg](https://static.vecteezy.com/system/resources/thumbnails/019/551/585/small_2x/api-icon-software-integration-illustration-sign-application-symbol-cloud-logo-development-sign-or-logo-vector.jpg).
 ## Table of Contents.
 
 - [Introduction](#introduction)
