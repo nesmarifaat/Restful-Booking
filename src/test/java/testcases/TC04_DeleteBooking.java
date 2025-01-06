@@ -21,4 +21,17 @@ public class TC04_DeleteBooking extends TestBase {
                 .then().log().all().statusCode(201).extract().response();
         Assert.assertTrue(response.body().print().contains("Created"));
     }
+
+    @Test(priority = 1, description = " Delete Booking with Invalid Path")
+
+    public void deletebookingwithinvalidpath_N(){
+        Response response= given().log().all().filter(new AllureRestAssured())
+                .cookie("token", token)
+                .contentType(ContentType.JSON)
+                .when().delete("/book/" + BookingID)
+                .then().log().all().statusCode(404).extract().response();
+        Assert.assertTrue(response.body().print().contains("Not Found"));
+
+
+    }
 }

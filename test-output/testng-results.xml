@@ -1,116 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="18" passed="5" failed="1" skipped="0">
+<testng-results ignored="6" total="14" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-05T22:27:20 EET" name="Restfull Booking" finished-at="2025-01-05T22:27:28 EET" duration-ms="8343">
+  <suite started-at="2025-01-06T12:25:40 EET" name="Restfull Booking" finished-at="2025-01-06T12:25:52 EET" duration-ms="11412">
     <groups>
     </groups>
-    <test started-at="2025-01-05T22:27:20 EET" name="E2E Scenarios" finished-at="2025-01-05T22:27:28 EET" duration-ms="8343">
+    <test started-at="2025-01-06T12:25:40 EET" name="E2E Scenarios" finished-at="2025-01-06T12:25:52 EET" duration-ms="11412">
       <class name="testcases.TC02_CreateBooking">
-        <test-method signature="createbookingwithvaliddata_P()[pri:1, instance:testcases.TC02_CreateBooking@705f83a7]" started-at="2025-01-05T22:27:23 EET" name="createbookingwithvaliddata_P" description="Create booking with valid Data" finished-at="2025-01-05T22:27:24 EET" duration-ms="1104" status="PASS">
+        <test-method signature="createbookingwithinvalidmethod_N()[pri:2, instance:testcases.TC02_CreateBooking@58294867]" started-at="2025-01-06T12:25:46 EET" name="createbookingwithinvalidmethod_N" description="Create Booking With Invalid Method" finished-at="2025-01-06T12:25:47 EET" duration-ms="1166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createbookingwithvaliddata_P -->
+        </test-method> <!-- createbookingwithinvalidmethod_N -->
+        <test-method signature="createbookingwithinvalidpayload_N()[pri:3, instance:testcases.TC02_CreateBooking@58294867]" started-at="2025-01-06T12:25:47 EET" name="createbookingwithinvalidpayload_N" description="Create Booking with Invalid Payload" finished-at="2025-01-06T12:25:48 EET" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbookingwithinvalidpayload_N -->
+        <test-method signature="createbookingwithinvalidpath_N()[pri:4, instance:testcases.TC02_CreateBooking@58294867]" started-at="2025-01-06T12:25:48 EET" name="createbookingwithinvalidpath_N" description=" Create Booking With Invalid Path" finished-at="2025-01-06T12:25:49 EET" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbookingwithinvalidpath_N -->
       </class> <!-- testcases.TC02_CreateBooking -->
-      <class name="testcases.TC04_GetUpdatedBookings">
-        <test-method signature="getupdatedbooking_P()[pri:1, instance:testcases.TC04_GetUpdatedBookings@c2df90e]" started-at="2025-01-05T22:27:27 EET" name="getupdatedbooking_P" description="Get The Updated Booking Details" finished-at="2025-01-05T22:27:28 EET" duration-ms="1085" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <404>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <404>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at testcases.TC04_GetUpdatedBookings.getupdatedbooking_P(TC04_GetUpdatedBookings.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getupdatedbooking_P -->
-      </class> <!-- testcases.TC04_GetUpdatedBookings -->
-      <class name="testcases.TC04_DeleteBooking">
-        <test-method signature="deletebookingwithvaliddata_P()[pri:1, instance:testcases.TC04_DeleteBooking@23310248]" started-at="2025-01-05T22:27:26 EET" name="deletebookingwithvaliddata_P" description="Delete Booking with Valid Booking ID and Data" finished-at="2025-01-05T22:27:27 EET" duration-ms="1172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletebookingwithvaliddata_P -->
-      </class> <!-- testcases.TC04_DeleteBooking -->
       <class name="testcases.TC01_CreateToken">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC01_CreateToken@e056f20]" started-at="2025-01-05T22:27:20 EET" name="Setup" finished-at="2025-01-05T22:27:20 EET" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:40 EET" name="Setup" finished-at="2025-01-06T12:25:41 EET" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="createtokenwithvaliddata_P()[pri:1, instance:testcases.TC01_CreateToken@e056f20]" started-at="2025-01-05T22:27:20 EET" name="createtokenwithvaliddata_P" description="Create Token with valid Data" finished-at="2025-01-05T22:27:23 EET" duration-ms="2464" status="PASS">
+        <test-method signature="createtokenwithinvalidmethod()[pri:2, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:41 EET" name="createtokenwithinvalidmethod" description="Create Token With invalid Action method" finished-at="2025-01-06T12:25:43 EET" duration-ms="2752" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createtokenwithvaliddata_P -->
+        </test-method> <!-- createtokenwithinvalidmethod -->
+        <test-method signature="createtokenwithinvalidcredentials_N()[pri:3, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:43 EET" name="createtokenwithinvalidcredentials_N" description="Create Token with invalid credentials" finished-at="2025-01-06T12:25:45 EET" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtokenwithinvalidcredentials_N -->
+        <test-method signature="createtokenwithinvalidpath_N()[pri:4, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:45 EET" name="createtokenwithinvalidpath_N" description="Create Token with Invalid Path" finished-at="2025-01-06T12:25:46 EET" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtokenwithinvalidpath_N -->
       </class> <!-- testcases.TC01_CreateToken -->
       <class name="testcases.TC03_UpdateBooking">
-        <test-method signature="updateallbooking_P()[pri:1, instance:testcases.TC03_UpdateBooking@3380ca3d]" started-at="2025-01-05T22:27:24 EET" name="updateallbooking_P" description="Update All Booking With Valid Data" finished-at="2025-01-05T22:27:25 EET" duration-ms="1160" status="PASS">
+        <test-method signature="updatewithinvalidmethod_N()[pri:3, instance:testcases.TC03_UpdateBooking@59303963]" started-at="2025-01-06T12:25:49 EET" name="updatewithinvalidmethod_N" description="Update Booking Using Invalid Method" finished-at="2025-01-06T12:25:51 EET" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateallbooking_P -->
-        <test-method signature="partialupdateforfirstlastname_P()[pri:2, instance:testcases.TC03_UpdateBooking@3380ca3d]" started-at="2025-01-05T22:27:25 EET" name="partialupdateforfirstlastname_P" description="Partial Update for Fistname and Lastname" finished-at="2025-01-05T22:27:26 EET" duration-ms="1074" status="PASS">
+        </test-method> <!-- updatewithinvalidmethod_N -->
+        <test-method signature="updatebookingwithinvalidpath_N()[pri:4, instance:testcases.TC03_UpdateBooking@59303963]" started-at="2025-01-06T12:25:51 EET" name="updatebookingwithinvalidpath_N" description="Update Booking With Invalid Path" finished-at="2025-01-06T12:25:52 EET" duration-ms="1109" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partialupdateforfirstlastname_P -->
+        </test-method> <!-- updatebookingwithinvalidpath_N -->
       </class> <!-- testcases.TC03_UpdateBooking -->
     </test> <!-- E2E Scenarios -->
   </suite> <!-- Restfull Booking -->
