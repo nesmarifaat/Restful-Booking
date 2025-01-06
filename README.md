@@ -1,6 +1,6 @@
 # Restful Booking.
 
-![Restful Booking Logo](Users\a923496\Downloads\API LOGO.jpg).
+![Restful Booking Logo](https://www.akana.com/sites/default/files/image/2019-06/image-blog-getting-most-api-management-600x400.jpg).
 ## Table of Contents.
 
 - [Introduction](#introduction)
