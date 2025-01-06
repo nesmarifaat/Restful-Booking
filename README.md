@@ -1,6 +1,6 @@
 # Restful Booking.
 
-![Restful Booking Logo](C:\Users\a923496\Downloads\API LOGO.jpg).
+![Restful Booking Logo](Users\a923496\Downloads\API LOGO.jpg).
 ## Table of Contents.
 
 - [Introduction](#introduction)
