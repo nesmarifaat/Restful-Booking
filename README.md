@@ -3,10 +3,7 @@
 
 ![Restful Booking Logo](https://cdn2.abiresearch.com/static/social_images/network-api.jpg)
 =======
-![Restful Booking Logo](https://cdn.vectorstock.com/i/500p/16/17/api-cloud-software-integration-icon-vector-24331617.jpg).
->>>>>>> origin/master
-=======
-![Restful Booking Logo](https://www.akana.com/sites/default/files/image/2019-06/image-blog-getting-most-api-management-600x400.jpg).
+
 >>>>>>> cee01524724943e309ac3c3ae7a72ab90ac7e5b9
 ## Table of Contents.
 
