@@ -4,7 +4,6 @@
 ![Restful Booking Logo](https://cdn2.abiresearch.com/static/social_images/network-api.jpg)
 =======
 
->>>>>>> cee01524724943e309ac3c3ae7a72ab90ac7e5b9
 ## Table of Contents.
 
 - [Introduction](#introduction)
