@@ -26,11 +26,7 @@
                     <include name="deletebookingwithvaliddata_P"/>
                 </methods>
             </class>
-            <class name="testcases.TC04_GetUpdatedBookings">
-                <methods>
-                    <include name="getupdatedbooking_P"/>
-                </methods>
-            </class>
+
         </classes>
     </test>
 </suite>

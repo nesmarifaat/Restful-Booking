@@ -11,10 +11,7 @@ import static io.restassured.RestAssured.given;
 
 public class TC01_CreateToken extends TestBase {
 
-    //TODO: postive scenario
-    //Given >> Request Data
-    //When Action method post, get put
-    //Then >> Assertion
+
 
     @Test(priority = 1, description = "Create Token with valid Data")
 
@@ -79,7 +76,7 @@ public class TC01_CreateToken extends TestBase {
                 .contentType(ContentType.JSON).body(logindata.toString())
                 .when().post("/aut")
                 .then().log().all().statusCode(404).extract().response();
-            // Assert.assertFalse(response.body().print().isEmpty());
+
              Assert.assertTrue(response.body().print().matches("Not Found"));
 
 

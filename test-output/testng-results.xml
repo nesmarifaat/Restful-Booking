@@ -1,53 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="14" passed="8" failed="0" skipped="0">
+<testng-results ignored="18" total="31" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-06T12:25:40 EET" name="Restfull Booking" finished-at="2025-01-06T12:25:52 EET" duration-ms="11412">
+  <suite started-at="2025-01-06T14:53:46 EET" name="Restfull Booking (1)" finished-at="2025-01-06T14:53:56 EET" duration-ms="9390">
     <groups>
     </groups>
-    <test started-at="2025-01-06T12:25:40 EET" name="E2E Scenarios" finished-at="2025-01-06T12:25:52 EET" duration-ms="11412">
+    <test started-at="2025-01-06T14:53:46 EET" name="E2E Scenarios" finished-at="2025-01-06T14:53:56 EET" duration-ms="9390">
       <class name="testcases.TC02_CreateBooking">
-        <test-method signature="createbookingwithinvalidmethod_N()[pri:2, instance:testcases.TC02_CreateBooking@58294867]" started-at="2025-01-06T12:25:46 EET" name="createbookingwithinvalidmethod_N" description="Create Booking With Invalid Method" finished-at="2025-01-06T12:25:47 EET" duration-ms="1166" status="PASS">
+        <test-method signature="createbookingwithinvalidmethod_N()[pri:2, instance:testcases.TC02_CreateBooking@6282f1eb]" started-at="2025-01-06T14:53:50 EET" name="createbookingwithinvalidmethod_N" description="Create Booking With Invalid Method" finished-at="2025-01-06T14:53:51 EET" duration-ms="1199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createbookingwithinvalidmethod_N -->
-        <test-method signature="createbookingwithinvalidpayload_N()[pri:3, instance:testcases.TC02_CreateBooking@58294867]" started-at="2025-01-06T12:25:47 EET" name="createbookingwithinvalidpayload_N" description="Create Booking with Invalid Payload" finished-at="2025-01-06T12:25:48 EET" duration-ms="1140" status="PASS">
+        <test-method signature="createbookingwithinvalidpayload_N()[pri:3, instance:testcases.TC02_CreateBooking@6282f1eb]" started-at="2025-01-06T14:53:51 EET" name="createbookingwithinvalidpayload_N" description="Create Booking with Invalid Payload" finished-at="2025-01-06T14:53:52 EET" duration-ms="1108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createbookingwithinvalidpayload_N -->
-        <test-method signature="createbookingwithinvalidpath_N()[pri:4, instance:testcases.TC02_CreateBooking@58294867]" started-at="2025-01-06T12:25:48 EET" name="createbookingwithinvalidpath_N" description=" Create Booking With Invalid Path" finished-at="2025-01-06T12:25:49 EET" duration-ms="1115" status="PASS">
+        <test-method signature="createbookingwithinvalidpath_N()[pri:4, instance:testcases.TC02_CreateBooking@6282f1eb]" started-at="2025-01-06T14:53:52 EET" name="createbookingwithinvalidpath_N" description=" Create Booking With Invalid Path" finished-at="2025-01-06T14:53:53 EET" duration-ms="1099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createbookingwithinvalidpath_N -->
       </class> <!-- testcases.TC02_CreateBooking -->
       <class name="testcases.TC01_CreateToken">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:40 EET" name="Setup" finished-at="2025-01-06T12:25:41 EET" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC01_CreateToken@7015ebef]" started-at="2025-01-06T14:53:46 EET" name="Setup" finished-at="2025-01-06T14:53:46 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="createtokenwithinvalidmethod()[pri:2, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:41 EET" name="createtokenwithinvalidmethod" description="Create Token With invalid Action method" finished-at="2025-01-06T12:25:43 EET" duration-ms="2752" status="PASS">
+        <test-method signature="createtokenwithinvalidmethod()[pri:2, instance:testcases.TC01_CreateToken@7015ebef]" started-at="2025-01-06T14:53:46 EET" name="createtokenwithinvalidmethod" description="Create Token With invalid Action method" finished-at="2025-01-06T14:53:47 EET" duration-ms="1182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createtokenwithinvalidmethod -->
-        <test-method signature="createtokenwithinvalidcredentials_N()[pri:3, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:43 EET" name="createtokenwithinvalidcredentials_N" description="Create Token with invalid credentials" finished-at="2025-01-06T12:25:45 EET" duration-ms="1539" status="PASS">
+        <test-method signature="createtokenwithinvalidcredentials_N()[pri:3, instance:testcases.TC01_CreateToken@7015ebef]" started-at="2025-01-06T14:53:47 EET" name="createtokenwithinvalidcredentials_N" description="Create Token with invalid credentials" finished-at="2025-01-06T14:53:48 EET" duration-ms="1144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createtokenwithinvalidcredentials_N -->
-        <test-method signature="createtokenwithinvalidpath_N()[pri:4, instance:testcases.TC01_CreateToken@6a28ffa4]" started-at="2025-01-06T12:25:45 EET" name="createtokenwithinvalidpath_N" description="Create Token with Invalid Path" finished-at="2025-01-06T12:25:46 EET" duration-ms="1066" status="PASS">
+        <test-method signature="createtokenwithinvalidpath_N()[pri:4, instance:testcases.TC01_CreateToken@7015ebef]" started-at="2025-01-06T14:53:48 EET" name="createtokenwithinvalidpath_N" description="Create Token with Invalid Path" finished-at="2025-01-06T14:53:50 EET" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createtokenwithinvalidpath_N -->
       </class> <!-- testcases.TC01_CreateToken -->
       <class name="testcases.TC03_UpdateBooking">
-        <test-method signature="updatewithinvalidmethod_N()[pri:3, instance:testcases.TC03_UpdateBooking@59303963]" started-at="2025-01-06T12:25:49 EET" name="updatewithinvalidmethod_N" description="Update Booking Using Invalid Method" finished-at="2025-01-06T12:25:51 EET" duration-ms="1175" status="PASS">
+        <test-method signature="updatewithinvalidmethod_N()[pri:3, instance:testcases.TC03_UpdateBooking@394b9e22]" started-at="2025-01-06T14:53:53 EET" name="updatewithinvalidmethod_N" description="Update Booking Using Invalid Method" finished-at="2025-01-06T14:53:54 EET" duration-ms="1369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatewithinvalidmethod_N -->
-        <test-method signature="updatebookingwithinvalidpath_N()[pri:4, instance:testcases.TC03_UpdateBooking@59303963]" started-at="2025-01-06T12:25:51 EET" name="updatebookingwithinvalidpath_N" description="Update Booking With Invalid Path" finished-at="2025-01-06T12:25:52 EET" duration-ms="1109" status="PASS">
+        <test-method signature="updatebookingwithinvalidpath_N()[pri:4, instance:testcases.TC03_UpdateBooking@394b9e22]" started-at="2025-01-06T14:53:54 EET" name="updatebookingwithinvalidpath_N" description="Update Booking With Invalid Path" finished-at="2025-01-06T14:53:56 EET" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatebookingwithinvalidpath_N -->
       </class> <!-- testcases.TC03_UpdateBooking -->
     </test> <!-- E2E Scenarios -->
+  </suite> <!-- Restfull Booking (1) -->
+  <suite started-at="2025-01-06T14:53:38 EET" name="Restfull Booking (0)" finished-at="2025-01-06T14:53:46 EET" duration-ms="7771">
+    <groups>
+    </groups>
+    <test started-at="2025-01-06T14:53:38 EET" name="E2E Scenarios" finished-at="2025-01-06T14:53:46 EET" duration-ms="7771">
+      <class name="testcases.TC02_CreateBooking">
+        <test-method signature="createbookingwithvaliddata_P()[pri:1, instance:testcases.TC02_CreateBooking@377008df]" started-at="2025-01-06T14:53:41 EET" name="createbookingwithvaliddata_P" description="Create booking with valid Data" finished-at="2025-01-06T14:53:43 EET" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbookingwithvaliddata_P -->
+      </class> <!-- testcases.TC02_CreateBooking -->
+      <class name="testcases.TC04_DeleteBooking">
+        <test-method signature="deletebookingwithvaliddata_P()[pri:1, instance:testcases.TC04_DeleteBooking@7fb8bad0]" started-at="2025-01-06T14:53:45 EET" name="deletebookingwithvaliddata_P" description="Delete Booking with Valid Booking ID and Data" finished-at="2025-01-06T14:53:46 EET" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletebookingwithvaliddata_P -->
+      </class> <!-- testcases.TC04_DeleteBooking -->
+      <class name="testcases.TC01_CreateToken">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC01_CreateToken@3f197a46]" started-at="2025-01-06T14:53:38 EET" name="Setup" finished-at="2025-01-06T14:53:39 EET" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="createtokenwithvaliddata_P()[pri:1, instance:testcases.TC01_CreateToken@3f197a46]" started-at="2025-01-06T14:53:39 EET" name="createtokenwithvaliddata_P" description="Create Token with valid Data" finished-at="2025-01-06T14:53:41 EET" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtokenwithvaliddata_P -->
+      </class> <!-- testcases.TC01_CreateToken -->
+      <class name="testcases.TC03_UpdateBooking">
+        <test-method signature="updateallbooking_P()[pri:1, instance:testcases.TC03_UpdateBooking@52d0f583]" started-at="2025-01-06T14:53:43 EET" name="updateallbooking_P" description="Update All Booking With Valid Data" finished-at="2025-01-06T14:53:44 EET" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateallbooking_P -->
+        <test-method signature="partialupdateforfirstlastname_P()[pri:2, instance:testcases.TC03_UpdateBooking@52d0f583]" started-at="2025-01-06T14:53:44 EET" name="partialupdateforfirstlastname_P" description="Partial Update for Fistname and Lastname" finished-at="2025-01-06T14:53:45 EET" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialupdateforfirstlastname_P -->
+      </class> <!-- testcases.TC03_UpdateBooking -->
+    </test> <!-- E2E Scenarios -->
+  </suite> <!-- Restfull Booking (0) -->
+  <suite started-at="2025-01-06T14:53:56 EET" name="Restfull Booking" finished-at="2025-01-06T14:53:56 EET" duration-ms="0">
+    <groups>
+    </groups>
   </suite> <!-- Restfull Booking -->
 </testng-results>

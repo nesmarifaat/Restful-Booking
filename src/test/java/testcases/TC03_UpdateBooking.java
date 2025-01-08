@@ -19,32 +19,9 @@ import static io.restassured.RestAssured.given;
 public class TC03_UpdateBooking extends TestBase {
     String Lastname = faker.name().lastName();
     String Firstname = faker.name().firstName();
-    String FamilyName=faker.name().lastName();
 
-    //    @Test(priority = 1, description = "Create booking with valid Data")
-//    public void createbookingwithvaliddata_P() {
-//        JSONObject BookingData = new JSONObject();
-//        JSONObject BookingDates = new JSONObject();
-//        BookingData.put("firstname", generateRandomFirstName())
-//                .put("lastname", Lastname)
-//                .put("totalprice", generateRandomInteger())
-//                .put("depositpaid", true)
-//                .put("additionalneeds", "breakfast")
-//                .put("bookingdates", BookingDates);
-//        BookingDates.put("checkin", "1-1-2025")
-//                .put("checkout", "2-12-2025");
-//
-//        Response response = given().log().all()
-//                .filter(new AllureRestAssured())
-//                .contentType(ContentType.JSON).body(BookingData.toString())
-//                .when().post("/booking")
-//                .then().log().all().statusCode(200).extract().response();
-//        BookingID = response.jsonPath().getInt("bookingid");
-//        Assert.assertTrue(response.body().print().contains("bookingid"));
-//        Assert.assertNotNull("bookingid");
-//        Assert.assertNotNull("firstname");
-//        Assert.assertNotNull("lastname");
-//    }
+
+
     @Test(priority = 1, description = "Update All Booking With Valid Data")
     public void updateallbooking_P() {
         JSONObject BookingData = new JSONObject();
@@ -80,7 +57,7 @@ public class TC03_UpdateBooking extends TestBase {
     public void partialupdateforfirstlastname_P() {
 
         JSONObject BookingData = new JSONObject();
-        BookingData.put("firstname", generateRandomFirstName())
+        BookingData.put("firstname",Firstname)
                 .put("lastname", Lastname);
 
         Response response = given().log().all()
