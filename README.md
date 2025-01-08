@@ -1,7 +1,6 @@
 # Restful Booking.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ![Restful Booking Logo](https://cdn2.abiresearch.com/static/social_images/network-api.jpg)
 =======
 ![Restful Booking Logo](https://cdn.vectorstock.com/i/500p/16/17/api-cloud-software-integration-icon-vector-24331617.jpg).
